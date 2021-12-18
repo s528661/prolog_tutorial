@@ -17,8 +17,8 @@ respects(d, X) :- hates(X, apple), hates(X, orange), female(X).
 ~~~  
 "E remembers the dog which eats an apple or an orange."  
 ~~~
-remembers(e, X) :- eats(X, apple) , dog (X).  
-remembers(e, X) :- hates(X , orange), dog (X).  
+remembers(e, X) :- eats(X, apple), dog(X).  
+remembers(e, X) :- hates(X, orange), dog(X).  
 ~~~  
 ### 3. Question  
 "Do you like an apple?"  
