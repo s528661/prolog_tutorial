@@ -26,3 +26,4 @@ remembers(e, X) :- hates(X, orange), dog(X).
 ?- like(you, apple).      /* If the answer is `likes(f, apple).`, this question is equal to the fact(X = f) */  
 ~~~   
 ## Usage  
+You can start prolog by `gprolog`   
